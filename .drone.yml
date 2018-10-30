@@ -1,15 +1,5 @@
 pipeline:
   frontend:
-    image: node
+    image: hello-world
     commands:
-      - npm install
-      - npm test
-  backend:
-    image: golang
-    commands:
-      - go test -v
-      - go install
-
-services:
-  database:
-    image: mysql
+      - echo works
