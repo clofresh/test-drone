@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo this is a thing
+echo this is a thing 2
 
